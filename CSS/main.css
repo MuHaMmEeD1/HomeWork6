@@ -1,0 +1,221 @@
+.mainDiv {
+  display: grid;
+  grid-template-rows: 50px 1fr;
+  gap: 10px;
+}
+
+.secimTablosu {
+  grid-column: 1;
+  position: fixed;
+}
+
+.secimTablosu ul {
+  display: grid;
+  list-style: none;
+  gap: 50px;
+}
+
+.bodyDiv__AxdarisDiv img {
+  position: relative;
+  top: 4px;
+  right: 4px;
+}
+
+.bodyDiv__AxdarisDiv {
+  position: relative;
+  bottom: 5px;
+}
+
+.secimTablosu ul li {
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 0px;
+}
+
+.secimTablosu ul :nth-child(7) {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.bodyDiv {
+  grid-column: 2;
+  position: relative;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+header {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.bodyDiv__AxdarisDiv {
+  position: relative;
+  left: 45px;
+}
+
+.bodyDiv__AxdarisDiv input {
+  border: 0px;
+}
+
+.bodyDiv__ProfilDiv {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bodyDiv__ProfilDiv img {
+  max-width: 100%;
+}
+
+.bodyDiv__ProfilDiv ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 5px;
+}
+
+.bodyDiv__ProfilDiv button {
+  background-color: #4339f2;
+  border-radius: 50%;
+  border: 0px;
+  width: 40px;
+  height: 40px;
+  color: white;
+  font-size: 30px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  list-style: none;
+  gap: 15px;
+  color: white;
+}
+
+.cards > :nth-child(1) {
+  background-color: #4339f2;
+  width: 320px;
+  border-radius: 7px;
+  padding-left: 30px;
+}
+
+.cards > :nth-child(2) {
+  background-color: #ff3a29;
+  width: 320px;
+  border-radius: 7px;
+  padding-left: 30px;
+}
+
+.cards > :nth-child(3) {
+  background-color: #34b53a;
+  width: 320px;
+  border-radius: 7px;
+  padding-left: 30px;
+}
+
+.cards__titel {
+  display: grid;
+  grid-template-columns: auto auto;
+  position: relative;
+  top: 10px;
+}
+
+.cards__titel img {
+  position: relative;
+  top: 17px;
+  left: 49.75px;
+}
+
+.cards__marka {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.cards__marka--LogoOreng {
+  width: 20px;
+  height: 20px;
+  background-color: #ff3a29;
+  border-radius: 50%;
+  position: relative;
+  left: 50px;
+  z-index: 1;
+}
+
+.cards__marka--LogoYellow {
+  width: 20px;
+  height: 20px;
+  background-color: #ffb200;
+  border-radius: 50%;
+  position: relative;
+  left: 30px;
+}
+
+.cards__marka--LogoTitel {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.cards__marka--Logo {
+  display: grid;
+  grid-template-columns: auto auto;
+  position: relative;
+  top: 22px;
+}
+
+.cards__marka h4 {
+  position: relative;
+  left: 30px;
+}
+
+.userList {
+  display: grid;
+  list-style: none;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.userList li {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.userList__NamaSurname {
+  width: 180px;
+}
+
+.userList__ProjePrice {
+  width: 100px;
+}
+
+.userList__FinishedPrice {
+  width: 100px;
+}
+
+.userList__TotalPrice {
+  width: 100px;
+}
+
+.userList__TotalPrice h2 {
+  color: #4339f2;
+}
+
+.userList__FollowersCount {
+  width: 100px;
+}
